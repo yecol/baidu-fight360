@@ -10,6 +10,7 @@
             百度卫士
         </title>
         <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/scroll.css" rel="stylesheet" type="text/css">
 
         <!--[if lt IE 9]>
         <script src="/static/assets/js/html5shiv.js"></script>
@@ -97,6 +98,11 @@
                 <a href="#"></a>
             </div>
             <div class="jb-images">
+                <ul id="scroller">
+                    <li><img src="./images/jb-1.jpg"></li>
+                    <li><img src="./images/jb-2.jpg"></li>
+                    <li><img src="./images/jb-3.jpg"></li>
+                </ul>      
             </div>
             </div>
         </div>
@@ -137,6 +143,20 @@
 
        
 
-        <script src="/static/assets/js/jquery-1.10.2.min.js"></script>
+    <script src="./assets/js/jquery-1.10.2.min.js"></script>
+    <script src="./assets/js/jquery.simplyscroll.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        console.log("hello");
+        $("#scroller").simplyScroll({
+            customClass: 'vert',
+            orientation: 'vertical',
+            auto: true,
+            autoMode: 'loop',
+            frameRate: 20,
+            speed: 1
+        });  
+    });
+    </script>
     </body>
 </html>
