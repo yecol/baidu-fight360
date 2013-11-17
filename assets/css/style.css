@@ -31,3 +31,12 @@ body{font-family:"Microsoft Yahei",'Arial';vertical-align:baseline}body a{text-d
 #news .news-container .news-item a.title{color:#000;font-size:18px;line-height:26px}
 #news .news-container .news-item a.link{color:#09f;font-size:16px;line-height:18px}
 #footer{padding-top:30px;background-color:#282828;height:70px}#footer p{color:#fff;text-align:center}
+#tricks{width:100%;height:860px}#tricks .tricks-container{width:960px;margin:40px auto 20px auto}#tricks .tricks-container:before,#tricks .tricks-container:after{content:" ";display:table}
+#tricks .tricks-container:after{clear:both}
+#tricks .tricks-container h2{font-size:20px;width:960px;padding-bottom:10px;border-bottom:solid #999 1px}
+#tricks .tricks-container .returnHome{width:100px;color:#09f;font-weight:bold;float:right;position:relative;top:-25px}#tricks .tricks-container .returnHome:hover{text-decoration:underline}
+#tricks .tricks-container .page{display:none;width:960px;float:left;height:720px;margin:20px 0 20px 0}#tricks .tricks-container .page:before,#tricks .tricks-container .page:after{content:" ";display:table}
+#tricks .tricks-container .page:after{clear:both}
+#tricks .tricks-container .page-item{float:left;padding:20px;width:200px;height:200px}#tricks .tricks-container .page-item img{width:200px;height:150px;border:solid #eee 1px;border-radius:8px}
+#tricks .tricks-container .page-item p.trick-p{color:#000;font-size:16px;line-height:20px}
+#tricks .tricks-container .page-nav p{text-align:center;font-size:18px}#tricks .tricks-container .page-nav p a{color:#09f}
