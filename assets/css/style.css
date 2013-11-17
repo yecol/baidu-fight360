@@ -3,3 +3,31 @@ body{font-family:"Microsoft Yahei",'Arial';vertical-align:baseline}body a{text-d
 .clearfix:before,.clearfix:after{content:" ";display:table}
 .clearfix:after{clear:both}
 .hide{display:none}
+.section{width:100%}
+#banner{height:480px;background:url("../img/banner-bg.jpg") 0 0 repeat-x}#banner .banner-container{width:1440px;margin:0 auto 0 auto;background:url("../img/banner.jpg") center center no-repeat;height:480px}
+#expo{background:url("../img/gd-bg.jpg") 0 0 repeat-x}#expo:before,#expo:after{content:" ";display:table}
+#expo:after{clear:both}
+#expo .expo-container{width:960px;height:364px;margin:0 auto 0 auto}#expo .expo-container:before,#expo .expo-container:after{content:" ";display:table}
+#expo .expo-container:after{clear:both}
+#expo .expo-container .expo-news{width:479px;height:320px;padding:20px;float:left}#expo .expo-container .expo-news h4{display:block;width:460px;border-bottom:solid #666 1px;padding-bottom:10px;margin-bottom:10px;font-size:18px;color:#000}
+#expo .expo-container .expo-news .expo-item{width:460px;margin-bottom:10px}#expo .expo-container .expo-news .expo-item a{font-weight:bold;color:#c00;font-size:20px;line-height:26px;margin-bottom:10px}#expo .expo-container .expo-news .expo-item a:hover,#expo .expo-container .expo-news .expo-item a:active{color:#cc0 0;text-decoration:underline}
+#expo .expo-container .expo-news .expo-item p{padding-top:5px}
+#expo .expo-container .expo-btn{width:441px;height:360px;float:left}#expo .expo-container .expo-btn a#remove-360{display:block;width:441px;height:182px;background:url("../img/remove-360.jpg") 0 0 no-repeat}
+#expo .expo-container .expo-btn a#install-baidu{display:block;width:441px;height:182px;background:url("../img/install-baidu.jpg") 0 0 no-repeat}
+#list{background:url("../img/8da-bg.jpg") 0 0 repeat-x}#list:before,#list:after{content:" ";display:table}
+#list:after{clear:both}
+#list .list-container{height:1083px;width:960px;margin:0 auto 0 auto}#list .list-container:before,#list .list-container:after{content:" ";display:table}
+#list .list-container:after{clear:both}
+#list .list-container .zz{float:left;width:480px;height:933px;background:url("../img/8da.jpg") 0 0 no-repeat;padding-top:150px}#list .list-container .zz .method{width:130px;height:80px;padding-left:350px;padding-top:30px}#list .list-container .zz .method a.me2{margin:0 auto 0 auto;width:87px;height:32px;display:block;background:url("../img/me2.png") 0 0 no-repeat}
+#list .list-container .zz .method p.me2-p{text-align:center;width:87px;margin:10px auto 0 auto;color:#fff}
+#list .list-container .jb{float:left;width:480px;height:1083px;background:url("../img/jb-bg.jpg") 0 0 no-repeat}#list .list-container .jb .jb-btn{width:480px;height:150px}#list .list-container .jb .jb-btn:before,#list .list-container .jb .jb-btn:after{content:" ";display:table}
+#list .list-container .jb .jb-btn:after{clear:both}
+#list .list-container .jb .jb-btn a{background:url("../img/jubao.png") 0 0 no-repeat;width:151px;height:50px;display:block;margin-top:95px;margin-left:175px}
+#news{border-top:solid #ddd 1px;background-color:#e1e1e1}#news .news-container{width:960px;margin:0 auto 0 auto;padding-top:40px;padding-bottom:50px}#news .news-container:before,#news .news-container:after{content:" ";display:table}
+#news .news-container:after{clear:both}
+#news .news-container h4{display:block;width:960px;border-bottom:solid #999 1px;padding-bottom:10px;margin-bottom:10px;font-size:18px;color:#000}
+#news .news-container .news-item{float:left;width:440px;height:15px;padding:20px}#news .news-container .news-item:before,#news .news-container .news-item:after{content:" ";display:table}
+#news .news-container .news-item:after{clear:both}
+#news .news-container .news-item a.title{color:#000;font-size:18px;line-height:26px}
+#news .news-container .news-item a.link{color:#09f;font-size:16px;line-height:18px}
+#footer{padding-top:30px;background-color:#282828;height:70px}#footer p{color:#fff;text-align:center}
