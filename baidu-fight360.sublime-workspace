@@ -372,6 +372,14 @@
 			}
 		},
 		{
+			"file": "trick8.html",
+			"settings":
+			{
+				"buffer_size": 27581,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "assets/css/style.less",
 			"settings":
 			{
@@ -732,7 +740,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -747,8 +755,8 @@
 						"selection":
 						[
 							[
-								15946,
-								15946
+								15823,
+								15696
 							]
 						],
 						"settings":
@@ -761,7 +769,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6099.0,
+						"translation.y": 6299.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -792,7 +800,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 532.0,
+						"translation.y": 2869.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "trick8.html",
+					"settings":
+					{
+						"buffer_size": 27581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25330,
+								25330
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 15165.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -804,7 +843,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "assets/css/style.less",
 					"settings":
 					{

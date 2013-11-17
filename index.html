@@ -157,7 +157,6 @@
     function multiSubText(selectString,limit,ellipsis){
             $(selectString).each(function(){
                 if ($(this).html().length>limit){
-                    console.log("hello");
                     var txt = $(this).html().substr(0,limit);
                     $(this).html(ellipsis?txt+"…":txt);               
                 }
