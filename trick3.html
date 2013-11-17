@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="yecol">
+        <title>
+            百度卫士
+        </title>
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="./assets/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
+
+        <!--[if lt IE 9]>
+        <script src="/static/assets/js/html5shiv.js"></script>
+        <script src="/static/assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+    <div id="banner" class="section">
+        <div class="banner-container">
+        </div>
+    </div>
+
+    <div id="tricks">
+        <div class="tricks-container">
+            <h2>恶劣手段三：强盗入市 强行篡改</h2>
+            <a href="index.html" class="returnHome">返回首页 ></a>
+            <div class="page">
+                <div class="page-item">
+                    <a href="images/t3/1.jpg" class="fb" rel="group">
+                        <img src="images/t3/1.jpg"></img>
+                        <p class="trick-p">后门机制窃取用户文件</p>
+                    </a>
+                </div>
+                <div class="page-item">
+                    <a href="images/t3/2.jpg" class="fb" rel="group">
+                        <img src="images/t3/2.jpg"></img>
+                        <p class="trick-p">偷窥用户文件</p>
+                    </a>
+                </div>
+                <div class="page-item">
+                    <a href="images/t3/3.jpg" class="fb" rel="group">
+                        <img src="images/t3/3.jpg"></img>
+                        <p class="trick-p">偷窥用户文件夹信息</p>
+                    </a>
+                </div>
+                <div class="page-item">
+                    <a href="images/t3/4.png" class="fb" rel="group">
+                        <img src="images/t3/4.png"></img>
+                        <p class="trick-p">微博小尾巴强制推广360浏览器超速版信息</p>
+                    </a>
+                </div>
+                <div class="page-item">
+                    <a href="images/t3/5.jpg" class="fb" rel="group">
+                        <img src="images/t3/5.jpg"></img>
+                        <p class="trick-p">微博小尾巴强制推广360浏览器信息</p>
+                    </a>
+                </div>
+            </div>
+               
+            <div class="page-nav">
+                <div id="curpage" class="hide">1</div>
+                <div id="totalpage" class="hide">1</div>
+                <p><span class="nav-text"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="section">
+        <p>©2013 Baidu</p>
+    </div>
+
+    <script src="./assets/js/jquery-1.10.2.min.js"></script>
+    <script src="./assets/fancybox/jquery.fancybox.pack.js"></script>
+    <script>
+     $(document).ready(function() {
+
+        $(".page:nth-of-type(1)").show();
+        $(".page-nav p .nav-text").html($("#curpage").text()+"/"+$("#totalpage").text());
+
+        $(".fb").fancybox({
+            wrapCSS    : 'fancybox-custom',
+            closeClick : true,
+            openEffect : 'none',
+            beforeLoad: function() {
+                this.title = $(this.element).find("p").html();
+            },
+            helpers : {
+                title : {
+                    type : 'inside'
+                }
+            }
+        });
+
+        // page navigation
+
+         $("a.next-page").click(function(event) {
+             /* Act on the event */
+            event.preventDefault();
+             var $curPage = parseInt($("#curpage").text(),10)+1;
+             $totalPage = parseInt($("#totalpage").text(),10);
+             if ($curPage<1||$curPage>$totalPage) {return;}
+             $(".page-nav p .nav-text").html($curPage+"/"+$totalPage);
+             $("#curpage").html(""+$curPage);
+             $(".page:nth-of-type("+($curPage-1)+")").fadeOut('400', function() {
+                 $(".page:nth-of-type("+$curPage+")").fadeIn(400);
+             });
+         });
+        $("a.prev-page").click(function(event) {
+             /* Act on the event */
+            event.preventDefault();
+             var $curPage = parseInt($("#curpage").text(),10)-1;
+             $totalPage = parseInt($("#totalpage").text(),10);
+             if ($curPage<1||$curPage>$totalPage) {return;}
+             $("#curpage").html(""+$curPage);
+             $(".page-nav p .nav-text").html($curPage+"/"+$totalPage);
+             $(".page:nth-of-type("+($curPage+1)+")").fadeOut('400', function() {
+                 $(".page:nth-of-type("+$curPage+")").fadeIn(400);
+             });
+         });
+     });
+    </script>
+    </body>
+</html>

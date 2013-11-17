@@ -18,8 +18,11 @@ body{font-family:"Microsoft Yahei",'Arial';vertical-align:baseline}body a{text-d
 #list:after{clear:both}
 #list .list-container{height:1083px;width:960px;margin:0 auto 0 auto}#list .list-container:before,#list .list-container:after{content:" ";display:table}
 #list .list-container:after{clear:both}
-#list .list-container .zz{float:left;width:480px;height:933px;background:url("../img/8da.jpg") 0 0 no-repeat;padding-top:150px}#list .list-container .zz .method{width:130px;height:80px;padding-left:350px;padding-top:30px}#list .list-container .zz .method a.me2{margin:0 auto 0 auto;width:87px;height:32px;display:block;background:url("../img/me2.png") 0 0 no-repeat}
-#list .list-container .zz .method p.me2-p{text-align:center;width:87px;margin:10px auto 0 auto;color:#fff}
+#list .list-container .zz{float:left;width:480px;height:933px;background:url("../img/8da.jpg") 0 0 no-repeat;padding-top:150px}#list .list-container .zz .method{width:480px;height:80px;padding-left:0;padding-top:0}#list .list-container .zz .method:before,#list .list-container .zz .method:after{content:" ";display:table}
+#list .list-container .zz .method:after{clear:both}
+#list .list-container .zz .method a.trick{float:left;width:340px;height:110px;display:inline-block}
+#list .list-container .zz .method a.me2{float:left;margin-top:30px;margin-left:20px;width:87px;height:32px;display:block;background:url("../img/me2.png") 0 0 no-repeat}
+#list .list-container .zz .method p.me2-p{float:left;text-align:center;width:130px;margin:10px auto 0 auto;color:#fff}
 #list .list-container .jb{float:left;width:480px;height:1083px;background:url("../img/jb-bg.jpg") 0 0 no-repeat}#list .list-container .jb .jb-btn{width:480px;height:150px}#list .list-container .jb .jb-btn:before,#list .list-container .jb .jb-btn:after{content:" ";display:table}
 #list .list-container .jb .jb-btn:after{clear:both}
 #list .list-container .jb .jb-btn a{background:url("../img/jubao.png") 0 0 no-repeat;width:151px;height:50px;display:block;margin-top:95px;margin-left:175px}
