@@ -33,8 +33,8 @@
                     <p>有网友在近日发现有网友在近日发现有网友在近日发现有网友</p>
                 </div>
                 <div class="expo-item">
-                    <a href="#">强制拦截下载百度杀毒，360绑架用户遭谴责</a>
-                    <p>有网友在近日发现有网友在近日发现有网友在近日发现有网友</p>
+                    <a href="#">强制拦截下载百度杀毒，360绑架用强制拦截下载百度杀毒，360绑架用强制拦截下载百度杀毒，360绑架用户遭谴责</a>
+                    <p>有网友在近日发现有网友在近日发现有网友近日发现有网友在近日发现有网友近日发现有网友在近日发现有网友在近日发现有网友</p>
                 </div>
                 <div class="expo-item">
                     <a href="#">强制拦截下载百度杀毒，360绑架用户遭谴责</a>
@@ -120,8 +120,8 @@
         <div class="news-container">
              <h4>相关资讯</h4>
                 <div class="news-item">
-                    <a href="#" class="title">强制拦截下载百度杀毒，360绑架用户遭谴责强制</a>
-                    <a href="#" class="link">http://www.baidu.com</a>
+                    <a href="#" class="title">强制拦截下载百度杀毒，360绑架用户遭谴责强制载百度杀毒，360绑架用户遭谴责强制载百度杀毒，360绑架用户遭谴责强制</a>
+                    <a href="#" class="link">http://www.baidu.comhttp://www.baidu.comhttp://www.baidu.comhttp://www.baidu.com</a>
                 </div>
                 <div class="news-item">
                     <a href="#" class="title">强制拦截下载百度杀毒，360绑架用户遭谴责</a>
@@ -154,7 +154,20 @@
     <script src="./assets/js/jquery-1.10.2.min.js"></script>
     <script src="./assets/js/jquery.simplyscroll.min.js"></script>
     <script>
+    function multiSubText(selectString,limit,ellipsis){
+            $(selectString).each(function(){
+                if ($(this).html().length>limit){
+                    console.log("hello");
+                    var txt = $(this).html().substr(0,limit);
+                    $(this).html(ellipsis?txt+"…":txt);               
+                }
+            });
+    }
     $(document).ready(function() {
+        multiSubText(".expo-item a",22,true);
+        multiSubText(".expo-item p",26,true);
+        multiSubText(".news-item .title",24,true);
+        multiSubText(".news-item .link",50,true);
         $("#scroller").simplyScroll({
             customClass: 'vert',
             orientation: 'vertical',

@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
-				"inli",
-				"inline"
+				"mar",
+				"margin-left"
+			],
+			[
+				"fa",
+				"float"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"total",
+				"totalPage"
+			],
+			[
+				"cur",
+				"curPage"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border"
 			],
 			[
 				"font",
@@ -16,8 +44,32 @@
 				"padding"
 			],
 			[
-				"mar",
-				"margin"
+				"margi",
+				"margin-left"
+			],
+			[
+				"jb",
+				"jb-btn"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"clea",
+				"clearfix"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inli",
+				"inline"
 			],
 			[
 				"fade",
@@ -36,10 +88,6 @@
 				"selectString"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
 				"titl",
 				"title"
 			],
@@ -50,14 +98,6 @@
 			[
 				"col",
 				"col-xs-4"
-			],
-			[
-				"in",
-				"inline"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"inline",
@@ -78,10 +118,6 @@
 			[
 				"se",
 				"serialize	.serialize()"
-			],
-			[
-				"ba",
-				"background-position-y"
 			],
 			[
 				"contai",
@@ -112,10 +148,6 @@
 				"stage1"
 			],
 			[
-				"bo",
-				"border-radius"
-			],
-			[
 				"rea",
 				"ready	$(document).ready"
 			],
@@ -134,10 +166,6 @@
 			[
 				"lis",
 				"list-style"
-			],
-			[
-				"bor",
-				"border-bottom"
 			],
 			[
 				"mr",
@@ -248,10 +276,6 @@
 				"y-green-2"
 			],
 			[
-				"margi",
-				"margin-left"
-			],
-			[
 				"margin",
 				"margin-right"
 			],
@@ -331,6 +355,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "trick4.html",
+			"settings":
+			{
+				"buffer_size": 17924,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6974,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 4709,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -448,13 +496,27 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/baidu-charity/index.html",
+		"/D/workspace_git/baidu-fight360/trick1.html",
+		"/D/workspace_git/baidu-fight360/trick5.html",
+		"/D/workspace_git/baidu-fight360/trick6.html",
+		"/D/workspace_git/baidu-fight360/trick8.html",
+		"/D/workspace_git/baidu-fight360/trick7.html",
+		"/D/workspace_git/baidu-fight360/trick3.html",
+		"/D/workspace_git/baidu-fight360/trick2.html",
+		"/D/workspace_git/baidu-fight360/index.html",
+		"/D/workspace_git/baidu-fight360/assets/css/style.less",
+		"/D/workspace_git/baidu-fight360/assets/css/scroll.css",
+		"/D/workspace_git/baidu-fight360/assets/css/style.css",
+		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/yecols.cn/fancyBox/demo/index.html",
+		"/D/workspace_git/baidu-charity/static/assets/css/style.less",
+		"/D/workspace_git/baidu-fight360/assets/css/reset.css",
 		"/D/workspace_git/rcbd/academic.html",
 		"/D/workspace_git/rcbd/steering.html",
 		"/D/workspace_git/rcbd/scientists.html",
 		"/D/workspace_git/rcbd/contact.html",
-		"/D/workspace_git/baidu-charity/focus.html",
 		"/D/workspace_git/baidu-charity/union.html",
-		"/D/workspace_git/baidu-charity/index.html",
 		"/D/workspace_git/rcbd/Index_V3.css",
 		"/D/workspace_git/baidu-charity/style.css",
 		"/D/workspace_git/baidu-charity/static/assets/css/form.css",
@@ -563,6 +625,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console",
+			"png",
+			"t2",
+			"div",
 			"foot",
 			"div",
 			"font-size",
@@ -651,6 +717,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"t6",
 			"/res",
 			"\"../res",
 			"../res/",
@@ -665,8 +732,107 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "trick4.html",
+					"settings":
+					{
+						"buffer_size": 17924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15946,
+								15946
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6099.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4163,
+								4163
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 532.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 4709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2482,
+								2482
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2152.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -687,11 +853,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.705746367056,
 			1.0
 		],
 		"rows":
@@ -734,6 +907,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 282.0,
 	"status_bar_visible": true
 }
