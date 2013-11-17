@@ -1,0 +1,5 @@
+@import "reset.css";
+body{font-family:"Microsoft Yahei",'Arial';vertical-align:baseline}body a{text-decoration:none}body a:hover,body a:focus,body a:active{color:#00f}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:after{clear:both}
+.hide{display:none}

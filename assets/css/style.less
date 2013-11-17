@@ -1,0 +1,27 @@
+@import "reset.css";
+
+@yaheifamily:"Microsoft Yahei",'Arial';
+
+body {
+	font-family: @yaheifamily;
+	vertical-align: baseline;
+	a{
+		text-decoration: none;
+		&:hover,&:focus,&:active{
+			color: blue;
+		}
+	}
+}
+.clearfix{
+	&:before,
+  	&:after {
+  	  content: " ";
+  	  display: table;
+  	}
+  	&:after {
+  	  clear: both;
+  	}
+}
+.hide{
+	display: none;
+}
